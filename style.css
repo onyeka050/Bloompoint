@@ -56,7 +56,7 @@ nav .nav-item h4 {
 .nav-button button {
   background-color: white;
   color: #6d6a6a;
-  padding: 0.5rem 1.7rem;
+  padding: 0.8rem 2rem;
   border-radius: 8px;
   margin-top: 2rem;
   border: 1.7px solid #6369f0;
@@ -86,7 +86,9 @@ nav .nav-item h4 {
   color: #6369f0;
 }
 .hero .main-text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 70%;
   color: #6d6a6a;
 }
 
@@ -123,7 +125,7 @@ nav .nav-item h4 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
 }
 
 .section-1 .content-1 {
@@ -139,8 +141,8 @@ nav .nav-item h4 {
 
   margin-top: 3rem;
   font-size: 2.3rem;
-  width: 60%;
-  line-height: 70px;
+  width: 40%;
+  line-height: 2.7rem;
   font-weight: 900;
 }
 .section-1 .main-img {
@@ -164,12 +166,11 @@ nav .nav-item h4 {
   font-size: 2rem;
 }
 .section-1 .content-1 .main-text .p-1 {
-  font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .section-1 .content-1 .main-text .p-2 {
   opacity: 0.6;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .section-2 .main-text h2 {
@@ -215,7 +216,10 @@ nav .nav-item h4 {
   width: 100%;
   margin-top: 4rem;
   background-color: #f4f6f8;
+  padding: 5rem 0;
+  padding-bottom: 15rem;
 }
+
 .content {
   margin: 0 auto;
   width: 80%;
@@ -265,14 +269,15 @@ ul li::before {
   align-items: center;
   justify-content: space-between;
   width: 60%;
-  margin: 0 auto;
+  margin: 7rem auto;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 20px;
   padding: 2rem 3rem;
   box-sizing: border-box;
-  margin-top: 5rem;
   background-color: #6369f0;
+  margin-top: -4rem;
   color: white;
+  height: 15rem;
 }
 .section-4 h2 {
   width: 60%;
@@ -281,8 +286,8 @@ ul li::before {
   border: none;
   padding: 1.1rem 5.2rem;
   border-radius: 5px;
-  background-color: #6369f0;
-  color: white;
+  background-color: #fff;
+  color: #6369f0;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 800;
@@ -330,12 +335,7 @@ footer .logo p {
   font-weight: 600;
 }
 
-
-
-
-
-
-@media screen and (max-width:1300px){
+@media screen and (max-width: 1300px) {
   nav {
     display: flex;
     align-items: center;
@@ -381,12 +381,12 @@ footer .logo p {
     border: 1.7px solid #6369f0;
     cursor: pointer;
   }
-  
+
   .nav-button button:hover {
     background-color: #6369f0;
     color: #fefefe;
   }
-  
+
   .hero {
     width: 85%;
     display: flex;
@@ -408,7 +408,7 @@ footer .logo p {
     font-size: 1.2rem;
     color: #6d6a6a;
   }
-  
+
   .hero img {
     margin-bottom: 8rem;
     margin-top: 6rem;
@@ -436,7 +436,7 @@ footer .logo p {
   .hero .main-text button:focus {
     transform: translateY(-0.25em);
   }
-  
+
   .section-1 {
     display: flex;
     flex-direction: column;
@@ -444,7 +444,7 @@ footer .logo p {
     justify-content: space-between;
     margin-bottom: 5rem;
   }
-  
+
   .section-1 .content-1 {
     display: flex;
     justify-content: space-between;
@@ -455,7 +455,7 @@ footer .logo p {
   .section-1 h1 {
     text-align: center;
     text-transform: capitalize;
-  
+
     margin-top: 3rem;
     font-size: 2.3rem;
     width: 60%;
@@ -490,7 +490,7 @@ footer .logo p {
     opacity: 0.6;
     font-size: 1.2rem;
   }
-  
+
   .section-2 .main-text h2 {
     font-size: 2rem;
     font-weight: 800;
@@ -498,7 +498,7 @@ footer .logo p {
     text-align: left;
     color: #6369f0;
   }
-  
+
   .section-2 {
     display: flex;
     align-items: center;
@@ -571,7 +571,7 @@ footer .logo p {
   ul {
     list-style: none;
   }
-  
+
   ul li::before {
     content: "\2022";
     color: #6369f0;
@@ -587,7 +587,8 @@ footer .logo p {
     justify-content: space-between;
     width: 60%;
     margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 20px;
     padding: 2rem 3rem;
     box-sizing: border-box;
@@ -650,33 +651,9 @@ footer .logo p {
     text-transform: capitalize;
     font-weight: 600;
   }
-  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1100px){
+@media screen and (max-width: 1100px) {
   nav {
     display: flex;
     align-items: center;
@@ -722,12 +699,12 @@ footer .logo p {
     border: 1.7px solid #6369f0;
     cursor: pointer;
   }
-  
+
   .nav-button button:hover {
     background-color: #6369f0;
     color: #fefefe;
   }
-  
+
   .hero {
     width: 85%;
     display: flex;
@@ -749,7 +726,7 @@ footer .logo p {
     font-size: 1.2rem;
     color: #6d6a6a;
   }
-  
+
   .hero img {
     margin-bottom: 8rem;
     margin-top: 6rem;
@@ -777,7 +754,7 @@ footer .logo p {
   .hero .main-text button:focus {
     transform: translateY(-0.25em);
   }
-  
+
   .section-1 {
     display: flex;
     flex-direction: column;
@@ -785,7 +762,7 @@ footer .logo p {
     justify-content: space-between;
     margin-bottom: 5rem;
   }
-  
+
   .section-1 .content-1 {
     display: flex;
     justify-content: space-between;
@@ -796,7 +773,7 @@ footer .logo p {
   .section-1 h1 {
     text-align: center;
     text-transform: capitalize;
-  
+
     margin-top: 3rem;
     font-size: 2.3rem;
     width: 60%;
@@ -831,7 +808,7 @@ footer .logo p {
     opacity: 0.6;
     font-size: 1.2rem;
   }
-  
+
   .section-2 .main-text h2 {
     font-size: 2rem;
     font-weight: 800;
@@ -839,7 +816,7 @@ footer .logo p {
     text-align: left;
     color: #6369f0;
   }
-  
+
   .section-2 {
     display: flex;
     align-items: center;
@@ -911,7 +888,7 @@ footer .logo p {
   ul {
     list-style: none;
   }
-  
+
   ul li::before {
     content: "\2022";
     color: #6369f0;
@@ -927,7 +904,8 @@ footer .logo p {
     justify-content: space-between;
     width: 60%;
     margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 20px;
     padding: 2rem 3rem;
     box-sizing: border-box;
@@ -990,34 +968,9 @@ footer .logo p {
     text-transform: capitalize;
     font-weight: 600;
   }
-  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:500px){
-  
+@media (max-width: 500px) {
   nav {
     display: flex;
     align-items: center;
