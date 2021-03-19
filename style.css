@@ -970,6 +970,335 @@ footer .logo p {
   }
 }
 
+
+
+
+@media screen and (max-width:900px){
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  nav .nav-logo {
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  nav .nav-logo img {
+    width: rem;
+  }
+  nav .nav-logo p {
+    font-family: "Fredoka One", cursive;
+    font-weight: 100;
+    color: #6369f0;
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-left: 0.5rem;
+  }
+  nav .nav-item {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+  nav .nav-item h4 {
+    font-size: 0.9rem;
+    color: #6d6a6a;
+    font-weight: 100;
+  }
+  .nav-button button {
+    background-color: white;
+    color: #6d6a6a;
+    padding: 0.5rem 1.7rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    border: 1.7px solid #6369f0;
+    cursor: pointer;
+    
+  }
+
+  .nav-button button:hover {
+    background-color: #6369f0;
+    color: #fefefe;
+  }
+
+  .hero {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .hero .main-text {
+    width: 48%;
+  }
+  .hero .main-text h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+  }
+  .hero .main-text a {
+    color: #6369f0;
+  }
+  .hero .main-text p {
+    font-size: 1.2rem;
+    color: #6d6a6a;
+  }
+
+  .hero img {
+    margin-bottom: 8rem;
+    margin-top: 6rem;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  .hero .main-text button {
+    border: none;
+    padding: 1.1rem 5.2rem;
+    border-radius: 5px;
+    background-color: #6369f0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.5s;
+  }
+  .hero .main-text button:hover,
+  .hero .main-text button:focus {
+    transform: translateY(-0.25em);
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .section-1 .content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    margin: 0 auto;
+  }
+  .section-1 h1 {
+    text-align: center;
+    text-transform: capitalize;
+
+    margin-top: 3rem;
+    font-size: 2.3rem;
+    width: 60%;
+    line-height: 50px;
+    font-weight: 900;
+  }
+  .section-1 .main-img {
+    width: 50%;
+  }
+  .section-1 .content-1 img {
+    width:21rem;
+    margin-top: 3rem;
+    height: 30rem;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  .section-1 .content-1 .main-text {
+    width: 48%;
+    margin: 0 auto;
+  }
+  .section-1 .content-1 .main-text h2 {
+    text-align: right;
+    color: #6369f0;
+    font-size: 2rem;
+  }
+  .section-1 .content-1 .main-text .p-1 {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .section-1 .content-1 .main-text .p-2 {
+    opacity: 0.6;
+    font-size: 1.2rem;
+  }
+
+  .section-2 .main-text h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: left;
+    color: #6369f0;
+  }
+
+  .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    margin: 0 auto;
+  }
+  .section-2 img {
+    margin-top: 5rem;
+    width: 21rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .section-2 .main-text {
+    width: 48%;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  .section-2 .main-text p {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  .section-2 .main-text h3 {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+  }
+  .section-2 .main-text li {
+    opacity: 0.7;
+  }
+  .section-3 {
+    width: 100%;
+    margin-top: 4rem;
+    background-color: #f4f6f8;
+  }
+  .content {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-3 img {
+    height: 28rem;
+    width: 21;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 5rem;
+  }
+  .section-3 .main-text {
+    width: 45%;
+  }
+  .section-3 .main-text h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: right;
+    color: #6369f0;
+  }
+  .section-3 .main-text p {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .section-3 .main-text li {
+    line-height: 40px;
+    font-size: 1.05rem;
+  }
+  ul {
+    list-style: none;
+  }
+
+  ul li::before {
+    content: "\2022";
+    color: #6369f0;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    background-color: #6369f0;
+    color: white;
+  }
+  .section-4 h2 {
+    width: 90%;
+  }
+  .section-4 button {
+    border: none;
+    padding: 1.1rem 5.2rem;
+    border-radius: 5px;
+    background-color: #6369f0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 0rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.5s;
+  }
+  .section-4 button:hover,
+  .section-4 button:focus {
+    transform: translateY(-0.25em);
+  }
+  footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  footer .logo {
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  footer .logo p {
+    font-family: "Fredoka One", cursive;
+    font-weight: 100;
+    color: #6369f0;
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-left: 0.5rem;
+  }
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    opacity: 0.4;
+  }
+  .footer-main h4 {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 500px) {
   nav {
     display: flex;
@@ -1235,13 +1564,14 @@ footer .logo p {
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 20px;
     padding: 2rem 3rem;
+    padding-bottom: rem;
     box-sizing: border-box;
     margin-top: 5rem;
     background-color: #6369f0;
     color: white;
   }
   .section-4 h2 {
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
   .section-4 button {
@@ -1253,7 +1583,7 @@ footer .logo p {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 800;
-    margin-top: 1.5rem;
+    margin-top: 0rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: all 0.5s;
