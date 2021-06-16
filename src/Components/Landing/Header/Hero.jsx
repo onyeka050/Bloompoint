@@ -1,4 +1,5 @@
 import Button from "../../UI/Button";
+import aweLogo from "../../../assets/images/awe.jpeg";
 import "./Hero.scss";
 
 const Hero = (props) => {
@@ -17,6 +18,14 @@ const Hero = (props) => {
             <Button secondary onClick={() => props.openModal()}>
               GET STARTED
             </Button>
+          </div>
+          <div>
+            <p className="label">POWERED BY</p>
+            <img
+              src={aweLogo}
+              alt="AWE Microfinance Bank"
+              className="comp_logo"
+            />
           </div>
         </div>
         <div className="image_container">
