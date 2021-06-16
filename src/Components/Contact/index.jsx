@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 import { countryList } from "../../utilities";
 
 import Button from "../UI/Button";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/bloompoint_logo.png";
 
 import "./index.scss";
 
