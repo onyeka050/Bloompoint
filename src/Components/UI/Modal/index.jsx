@@ -1,4 +1,4 @@
-import Close from "../close.png";
+import Close from "../../../assets/images/close.png";
 import "./index.scss";
 
 const Modal = (props) => {

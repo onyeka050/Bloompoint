@@ -1,7 +1,10 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import { countryList } from "../utilities";
-import Logo from "../Logo.png";
+
+import { countryList } from "../../utilities";
+
+import Button from "../UI/Button";
+import Logo from "../../assets/images/logo.png";
 
 import "./index.scss";
 
@@ -25,13 +28,14 @@ const Contact = () => {
       setSubmitting(true);
       await emailjs.sendForm(
         "service_jx54x1j",
-        "template_xdhxq6w",
+        "template_4jsqn98",
         e.target,
         "user_3kFCX6FPg9aOY9ecfVCCc"
       );
       setSubmitting(false);
       setSuccess(true);
     } catch (error) {
+      console.log(error);
       alert(
         "There has been an error sending your details, please try again later"
       );
@@ -41,7 +45,7 @@ const Contact = () => {
     setFormInfo(initialFormState);
     setTimeout(() => {
       setSuccess(false);
-    }, 3000);
+    }, 2000);
   }
 
   return (
@@ -151,9 +155,9 @@ const Contact = () => {
               required
             />
           </div>
-          <button disabled={submitting} primary>
-            {!submitting ? "SUBMIT" : "please wait..."}
-          </button>
+          <Button disabled={submitting} primary>
+            {!submitting ? "SEND MESSAGE" : "please wait..."}
+          </Button>
           {success && (
             <div className="alert-success">Message Sent Successfully</div>
           )}
