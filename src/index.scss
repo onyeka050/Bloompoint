@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+
+:root {
+  --color-primary: #4305eb;
+  --color-secondary: #011b33;
+  --color-additional: rgb(238, 187, 77);
+  --color-background: #071137;
+}
+
+@font-face {
+  font-family: firma-bold;
+  src: url(./fonts/br-firma/BRFirmaCW-Bold.woff2);
+}
+
+@font-face {
+  font-family: firma;
+  src: url(./fonts/br-firma/BRFirmaCW-Regular.woff2);
+}
+
+@font-face {
+  font-family: Sailec;
+  src: url(./fonts/sailec/Sailec-Regular.woff2);
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: firma;
+  font-weight: bolder;
+}
+
+p {
+  font-family: Sailec, sans-serif;
+}
