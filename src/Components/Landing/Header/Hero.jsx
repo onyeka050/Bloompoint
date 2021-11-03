@@ -1,5 +1,4 @@
 import Button from "../../UI/Button";
-// import aweLogo from "../../../assets/images/awe.jpeg";
 import "./Hero.scss";
 
 const Hero = (props) => {
@@ -19,14 +18,14 @@ const Hero = (props) => {
               GET STARTED
             </Button>
           </div>
-          {/* <div>
+          <div>
             <p className="label">POWERED BY</p>
             <img
-              src={aweLogo}
-              alt="AWE Microfinance Bank"
+              src="https://endeavor.org/content/uploads/2019/10/Logo%20-%20Flutterwave.png"
+              alt="Flutterwave Logo"
               className="comp_logo"
             />
-          </div> */}
+          </div>
         </div>
         <div className="image_container">
           <img
