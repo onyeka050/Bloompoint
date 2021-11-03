@@ -1,5 +1,5 @@
 import Button from "../../UI/Button";
-import aweLogo from "../../../assets/images/awe.jpeg";
+// import aweLogo from "../../../assets/images/awe.jpeg";
 import "./Hero.scss";
 
 const Hero = (props) => {
