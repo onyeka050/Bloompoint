@@ -1,10 +1,8 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
-import { countryList } from "../../utilities";
-
-import Button from "../UI/Button";
-import Logo from "../../assets/images/bloompoint_logo.png";
+import { countryList } from "../utilities";
+import Logo from "../assets/images/bloompoint_logo.png";
 
 import "./index.scss";
 
@@ -155,9 +153,9 @@ const Contact = () => {
               required
             />
           </div>
-          <Button disabled={submitting} primary>
+          <button disabled={submitting} primary>
             {!submitting ? "SEND MESSAGE" : "please wait..."}
-          </Button>
+          </button>
           {success && (
             <div className="alert-success">Message Sent Successfully</div>
           )}
