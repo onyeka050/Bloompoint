@@ -19,14 +19,14 @@ const Hero = (props) => {
               GET STARTED
             </Button>
           </div>
-          <div>
+          {/* <div>
             <p className="label">POWERED BY</p>
             <img
               src={aweLogo}
               alt="AWE Microfinance Bank"
               className="comp_logo"
             />
-          </div>
+          </div> */}
         </div>
         <div className="image_container">
           <img
